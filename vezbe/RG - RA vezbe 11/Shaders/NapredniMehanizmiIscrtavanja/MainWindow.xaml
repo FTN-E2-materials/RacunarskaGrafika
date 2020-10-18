@@ -1,0 +1,9 @@
+﻿<Window x:Class="NapredniMehanizmiIscrtavanja.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SharpGL WPF Application" Height="720" Width="1280" 
+        xmlns:sharpGL="clr-namespace:SharpGL.WPF;assembly=SharpGL.WPF" KeyDown="Window_KeyDown">
+    <Grid>
+            <sharpGL:OpenGLControl x:Name="OpenGLControl" OpenGLInitialized="OpenGLControl_OpenGLInitialized" OpenGLDraw="OpenGLControl_OpenGLDraw" RenderContextType="FBO" OpenGLVersion="OpenGL3_3" FrameRate="60"/>
+    </Grid>
+</Window>
