@@ -31,3 +31,14 @@ Njih mozemo dodati u projekat kroz NuGet packages:
 I pomocu sledeceg taga ga dodajemo u wpf projekat:
 
 ![image](https://user-images.githubusercontent.com/45834270/97193375-391c4d00-17a9-11eb-8e45-bbada2caa645.png)
+
+## Pitanje na KT1 - redovno pitanje !
+
+Dobijemo neki deo koda. I mi treba da skiciramo sta ce se iscrtati na ekranu za taj deo koda.
+
+Primer koda:
+
+![image](https://user-images.githubusercontent.com/45834270/97197803-57d11280-17ae-11eb-8821-3f50965d73a2.png)
+
+
+
