@@ -39,13 +39,19 @@ namespace Primitives1
         Sphere
     }
 
-    ///<summary> Klasa koja enkapsulira OpenGL programski kod </summary>
+    /// <summary>
+    /// Klasa koja enkapsulira OpenGL programski kod
+    ///
+    /// Klasa u kojoj cemo mi najvise da kodiramo !
+    /// </summary>
     class World
     {
         #region Atributi
 
         /// <summary>
-        ///	 Verteksi tacaka, linija i poligona
+        ///	 Verteksi tacaka, linija i poligona.
+        ///
+        /// Treca kordinata je z, koja je zapravo ovde 0 pa nema potrebe da se pise
         /// </summary>
         private float[] pointLinePolygonVertices = new float[]
                 {
@@ -246,11 +252,12 @@ namespace Primitives1
             float[] pointSizeRange = new float[2];
             float[] pointSizeGranularity = new float[1];
 
-            // Ocitaj iz promenljive stanja GL_POINT_SIZE_RANGE
+            // Ocitaj iz promenljive stanja GL_POINT_SIZE_RANGE ( to se nalazi u grafickom hardveru )
             // minimalnu i maksimalnu velicinu (min = prvi el. niza, max = drugi el. niza)
             gl.GetFloat(OpenGL.GL_POINT_SIZE_RANGE, pointSizeRange);
             gl.GetFloat(OpenGL.GL_POINT_SIZE_GRANULARITY, pointSizeGranularity);
 
+            // Opseg koji zavisi od nase kartice, sto je veci to je 'jaca' graficka kartica
             int range = (int)(Math.Round((pointSizeRange[1] - pointSizeRange[0]) / pointSizeGranularity[0]));
 
             for (int i = 0; i <= range; i++)
@@ -272,6 +279,7 @@ namespace Primitives1
                 m_lineWidthList.Add(lineWidthRange[0] + i * lineWidthGranularity[0]);
             }
 
+            // Funkcija Enable nam sluzi za iskljucivanje/ukljucivanje PROMENLJIVIH STANJA
             gl.Enable(OpenGL.GL_LINE_STIPPLE);
         }
 
@@ -328,6 +336,7 @@ namespace Primitives1
                 case OpenGLPrimitive.Points:
                     {
                         // Iscrtaj 12 tacaka
+                        // BEGIN I END FUNKCIJE IDU U PARU I NIKAD NE MOGU ICI DISJUNKTNO, ODNOSNO JEDNO BEZ DRUGOG !
                         gl.Begin(OpenGL.GL_POINTS);
                         for (int i = 0; i < pointLinePolygonVertices.Length; i = i + 2)
                         {
@@ -338,6 +347,7 @@ namespace Primitives1
                     }
                 case OpenGLPrimitive.Lines:
                     {
+                        // U okviru Begin i End definisemo nasu scenu, a parametar begin-a je tip primitive
                         gl.Begin(OpenGL.GL_LINES);
                         for (int i = 0; i < pointLinePolygonVertices.Length; i = i + 2)
                         {

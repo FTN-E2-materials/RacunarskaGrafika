@@ -63,7 +63,11 @@ namespace Primitives1
         #region Rukovaoci dogadjajima OpenGL kontrole
 
         /// <summary>
-        /// Rukovalac dogadjaja iscrtavanja OpenGL kontrole
+        /// Rukovalac dogadjaja iscrtavanja OpenGL kontrole.
+        ///
+        /// Ova metoda se poziva stalno i sluzi za icrtavanje ekrana i posto se stalno i poziva, zbog toga su moguce animacije!
+        ///
+        /// Ako menjamo podatke koji se salju, dobicemo animaciju, a ako saljemo stalno iste imamo staticku scenu(fakticki sliku)
         /// </summary>
         private void openGLControl_OpenGLDraw(object sender, OpenGLEventArgs args)
         {
@@ -86,9 +90,15 @@ namespace Primitives1
             m_world.Resize(args.OpenGL, (int)openGLControl.ActualWidth, (int)openGLControl.ActualHeight);
         }
 
-    #endregion
+        #endregion
 
+        #region Ostalo
 
+        /// <summary>
+        /// U zavisnosti od odabrane primitive prikazuje se drugaciji front
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void primitiveTypeComboBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
         {
             m_world.SelectedPrimitive = (OpenGLPrimitive)primitiveTypeComboBox.SelectedItem;
@@ -321,5 +331,7 @@ namespace Primitives1
                     lineStippleFactorMaskedTextBox.Visibility = Visibility.Collapsed;
                 }
         }
+
+        #endregion
     }
 }
