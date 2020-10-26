@@ -1,7 +1,7 @@
 # Uvod
 
 <details>
- <summary> details ... </summary> 
+ <summary> detalji ... </summary> 
   
   </br>
   
@@ -28,7 +28,7 @@ U OpenGL se ne radi 3D modelovanje, vrlo je zahtevno (skoro pa ne moguce). Posto
 # Vezbe1
 
 <details>
- <summary> details ... </summary> 
+ <summary> detalji ... </summary> 
   
 </br>
 
@@ -44,6 +44,10 @@ I pomocu sledeceg taga ga dodajemo u wpf projekat:
 
 ![image](https://user-images.githubusercontent.com/45834270/97193375-391c4d00-17a9-11eb-8e45-bbada2caa645.png)
  
+ ## Napomena
+ 
+ OpenGL je automatan stanja i sa funkcijom Enable mozemo time upravljati
+ 
  </br>
  
 </details>
@@ -51,7 +55,7 @@ I pomocu sledeceg taga ga dodajemo u wpf projekat:
 ## Pitanje na KT1 - redovno pitanje !
 
 <details>
- <summary> details ... </summary> 
+ <summary> detalji ... </summary> 
   
 </br>
 
