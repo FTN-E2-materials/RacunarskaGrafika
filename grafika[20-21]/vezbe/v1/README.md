@@ -1,4 +1,4 @@
-# Vezbe1 - uvodne
+# Uvod
 
 Teorijski testovi (koji se rade na odbrani kontrolnih tacki) nisu vezani za predavanja profesora. Postoji skripta za te testove i eventualno nesto sa vezbi sto je asistent spomenuo na vezbama je ono sto se pita na tim teorijskim testovima.
 
@@ -14,3 +14,20 @@ Teorijski testovi (koji se rade na odbrani kontrolnih tacki) nisu vezani za pred
 
 U OpenGL se ne radi 3D modelovanje, vrlo je zahtevno (skoro pa ne moguce). Postoje softveri za modelovanje, napravimo u njima model i samo taj model ucitamo u OpenGL-u ( onda radimo neke transformacije nad njim, probavati da ih animiramo i slicno).
 
+
+</br>
+</br>
+
+## Vezbe1
+
+Da bi radili sa OpenGL u C# koristimo SharpGL i sledece reference.
+
+![image](https://user-images.githubusercontent.com/45834270/97192720-77653c80-17a8-11eb-804e-e9d85eb2904a.png)
+
+Njih mozemo dodati u projekat kroz NuGet packages:
+
+![image](https://user-images.githubusercontent.com/45834270/97193001-cca14e00-17a8-11eb-942a-ede9025d852d.png)
+
+I pomocu sledeceg taga ga dodajemo u wpf projekat:
+
+![image](https://user-images.githubusercontent.com/45834270/97193375-391c4d00-17a9-11eb-8e45-bbada2caa645.png)
