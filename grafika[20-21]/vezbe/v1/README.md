@@ -1,5 +1,10 @@
 # Uvod
 
+<details>
+ <summary> details ... </summary> 
+  
+  </br>
+  
 Teorijski testovi (koji se rade na odbrani kontrolnih tacki) nisu vezani za predavanja profesora. Postoji skripta za te testove i eventualno nesto sa vezbi sto je asistent spomenuo na vezbama je ono sto se pita na tim teorijskim testovima.
 
 ## Terminologija
@@ -17,8 +22,15 @@ U OpenGL se ne radi 3D modelovanje, vrlo je zahtevno (skoro pa ne moguce). Posto
 
 </br>
 </br>
+ 
+</details>
 
-## Vezbe1
+# Vezbe1
+
+<details>
+ <summary> details ... </summary> 
+  
+</br>
 
 Da bi radili sa OpenGL u C# koristimo SharpGL i sledece reference.
 
@@ -31,14 +43,29 @@ Njih mozemo dodati u projekat kroz NuGet packages:
 I pomocu sledeceg taga ga dodajemo u wpf projekat:
 
 ![image](https://user-images.githubusercontent.com/45834270/97193375-391c4d00-17a9-11eb-8e45-bbada2caa645.png)
+ 
+ </br>
+ 
+</details>
 
 ## Pitanje na KT1 - redovno pitanje !
+
+<details>
+ <summary> details ... </summary> 
+  
+</br>
 
 Dobijemo neki deo koda. I mi treba da skiciramo sta ce se iscrtati na ekranu za taj deo koda. Tu je najbitnije da znamo kako primitive rade i u zavisnosti od primitive cemo znati sta ce se iscrtati!
 
 Primer koda:
 
 ![image](https://user-images.githubusercontent.com/45834270/97197803-57d11280-17ae-11eb-8821-3f50965d73a2.png)
+ 
+</details>
+
+
+
+
 
 
 
