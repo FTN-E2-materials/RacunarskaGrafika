@@ -34,7 +34,7 @@ I pomocu sledeceg taga ga dodajemo u wpf projekat:
 
 ## Pitanje na KT1 - redovno pitanje !
 
-Dobijemo neki deo koda. I mi treba da skiciramo sta ce se iscrtati na ekranu za taj deo koda.
+Dobijemo neki deo koda. I mi treba da skiciramo sta ce se iscrtati na ekranu za taj deo koda. Tu je najbitnije da znamo kako primitive rade i u zavisnosti od primitive cemo znati sta ce se iscrtati!
 
 Primer koda:
 
