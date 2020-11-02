@@ -46,7 +46,7 @@ I pomocu sledeceg taga ga dodajemo u wpf projekat:
  
  ## Napomena
  
- OpenGL je automatan stanja i sa funkcijom Enable mozemo time upravljati
+ OpenGL je automatat stanja i sa funkcijom Enable mozemo time upravljati
  
  </br>
  
