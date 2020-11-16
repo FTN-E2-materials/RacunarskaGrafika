@@ -8,6 +8,8 @@
 <details>
  <summary> Display lista i Vertex array </summary> <br>
  
+ - display lista ima najbolje preformanse ali je scena staticka
+ 
 ![image](https://user-images.githubusercontent.com/45834270/99259416-46fa4680-281a-11eb-9d19-aa505768aea5.png)
 
 </details>
