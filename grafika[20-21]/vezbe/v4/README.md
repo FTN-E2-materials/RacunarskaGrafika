@@ -2,7 +2,7 @@
 
 ## Pitanja za test 
  
- - koje su prednosti i koje su mane mehanizama iscrtavanja
+ - koje su **PREDNOSTI** i koje su **MANE** mehanizama iscrtavanja
 
 
 <details>
