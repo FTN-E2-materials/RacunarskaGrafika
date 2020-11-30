@@ -2,7 +2,17 @@
 
 ## Pitanja za test 
  
- - koje su **PREDNOSTI** i koje su **MANE** mehanizama iscrtavanja
+ - koje su **PREDNOSTI** i koje su **MANE** jednog mehanizama iscrtavanja u odnosu na drugi.
+ 
+ 
+<details>
+ <summary> Mehanizmi koje mi radimo </summary> <br>
+ 
+  - **immediate** rezim ( glBegin(mode)/glEnd() )
+  - **display list**
+  - **vertex array**
+  - **vertex buffer objects** (VBOs)
+</details>
 
 
 <details>
