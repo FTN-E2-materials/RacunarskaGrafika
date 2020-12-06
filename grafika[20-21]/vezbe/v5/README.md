@@ -15,7 +15,7 @@
 
 
 <details>
-  <summar> Tekst </summary> <br>
+  <summary> Tekst </summary> <br>
 
   - sto se tice 3D teksta, on se pomera sa scenom
   - sto se tice 2D teksta, objekti mogu preci preko njih, nije po deafultu da su oni nalepljeni na scenu, tkd to moramo resiti sa **depth testingom**
