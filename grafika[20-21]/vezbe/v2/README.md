@@ -37,17 +37,13 @@ Rezim rada sa isprekidanim linijama. Sa desna na levo gledamo, 1 - prikazi pikse
 - svaka dva imaju razlicitu orijentaciju 
 - svaki drugi trougao ima istu orijentaciju
 - ali opengl regulise tu pricu tako sto uzima svaki parni trougao i menja mu prva dva verteksa(tacke)
-
-## Primitiva gl_triangle_strip
-
-  - da bi dobili n trouglova potrebno je
   
 ## Primeri pitanja na testu 
   
   - za quadric objekte reci koji postoje atributi, sta svaki od njih radi 
   - koliko tacaka je potrebno da definisemo n trouglova u triangle fan tipu primitive : 2 + n tacaka
   - pitanje vezano za projekcije 
-  - funkcija za definisanje kamere, odnosno point of view u opengl-u
+  - funkcija za definisanje kamere, odnosno point of view u opengl-u (viewport metoda)
   
 ## Zakljucak
 
