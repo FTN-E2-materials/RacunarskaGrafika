@@ -1,1 +1,3 @@
 # Vezbe6
+
+U izradi...
