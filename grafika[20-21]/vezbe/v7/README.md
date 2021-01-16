@@ -1,0 +1,3 @@
+# Vezbe7
+
+U izradi...
