@@ -1,6 +1,9 @@
 # Racunarska Grafika
 Materijal koristan za razumevanje i praćenje predmeta Računarska grafika na [Fakultetu tehničkih nauka]("http://ftn.uns.ac.rs/").
 
+<details>
+   <summary> Nacin polaganja 2020/21</summary><br>
+   
 ## Način polaganja
 
 * Sadržaj predmeta:
@@ -32,4 +35,4 @@ Materijal koristan za razumevanje i praćenje predmeta Računarska grafika na [F
 * Predložena literatura
     * [OpenGL Redbook]("https://www.glprogramming.com/red/")
 
-
+<br></details><br>
